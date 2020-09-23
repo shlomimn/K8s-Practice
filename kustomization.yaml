@@ -1,4 +1,4 @@
-apiVersion: kustomize
+apiVersion: kustomize.config.k8s.io/
 kind: Kustomization
 resources:
   - 01-namespace.yaml
