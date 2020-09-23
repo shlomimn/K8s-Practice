@@ -4,6 +4,7 @@ metadata:
   name: nginx
   namespace: hpa-test
 spec:
+  type: LoadBalancer
   selector:
     app: nginx
   ports:
